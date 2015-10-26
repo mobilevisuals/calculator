@@ -30,7 +30,7 @@ public class CalScanner2 {
 		else if (mathSymbol.equals("/"))
 			result = leftOperand / rightOperand;
 		else {
-			System.out.println("Wrong operator, no calculation has been made! ");
+			System.out.println("Wrong operator, no calculation has been made!! ");
 			presentResult = false;
 			System.currentTimeMillis();
 			System.nanoTime();
